@@ -17,10 +17,10 @@ const routes = [
     path: '/test',
     component: () => import ('@/views/Test.vue')
   },
-  {
-    path: '/:pathMatch(.*)*',
-    component: () => import ('@/views/NotFound.vue')
-  }
+  // {
+  //   path: '/:pathMatch(.*)*',
+  //   component: () => import ('@/views/NotFound.vue')
+  // }
 ]
 
 const router = createRouter({
