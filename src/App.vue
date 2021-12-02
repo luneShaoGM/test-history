@@ -1,4 +1,9 @@
 <template>
+  <router-link to="/about">about</router-link>
+  --------
+  <router-link to="/test">test</router-link>
+  --------
+  <router-link to="/test/test2">test2</router-link>
   <router-view></router-view>
 </template>
 
